@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Middle Ages: Survive the Year 1000</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #5c4033;
+            --secondary-color: #8b4513;
+            --background-color: #f4e9d9;
+            --text-color: #2c2c2c;
+        }
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: var(--background-color);
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            font-family: 'Cinzel', serif;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        nav {
+            background-color: var(--secondary-color);
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: var(--background-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 40px 0;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: var(--background-color);
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: var(--primary-color);
+        }
+        footer {
+            background-color: var(--secondary-color);
+            color: var(--background-color);
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Middle Ages: Survive the Year 1000</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#historical-context">Historical Context</a></li>
+                <li><a href="#survival-challenges">Survival Challenges</a></li>
+                <li><a href="#character-creation">Character Creation</a></li>
+                <li><a href="#community">Community</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container">
+        <section id="about">
+            <h2>Journey to the Past: The Year 1000 CE</h2>
+            <p>Welcome to Middle Ages, a groundbreaking historical simulation that transports you back to the year 1000 CE. This is not a game of fantasy or romanticized history. You will face the harsh realities of medieval life, where survival is a daily struggle and the comforts of the modern world are a millennium away.</p>
+        </section>
+        <section id="historical-context">
+            <h2>Life in 1000 CE: A World Apart</h2>
+            <p>As you step into the year 1000, you'll find yourself in a world vastly different from our own:</p>
+            <ul>
+                <li>The Norman Conquest of England is still 66 years away</li>
+                <li>The First Crusade won't begin for another 95 years</li>
+                <li>The Black Death is more than three centuries in the future</li>
+                <li>Most of Europe is ruled by a patchwork of feudal lords</li>
+                <li>The Catholic Church dominates spiritual and often political life</li>
+                <li>Literacy is rare, and most knowledge is passed down orally</li>
+            </ul>
+        </section>
+        <section id="survival-challenges">
+            <h2>Survive Against All Odds</h2>
+            <p>In this unforgiving era, you'll face numerous challenges:</p>
+            <ul>
+                <li>Secure food and clean water in a time before modern agriculture and sanitation</li>
+                <li>Protect yourself from disease without the benefit of modern medicine</li>
+                <li>Navigate complex social hierarchies and avoid running afoul of local powers</li>
+                <li>Learn to communicate in a world of diverse dialects and low literacy</li>
+                <li>Master period-appropriate skills and trades to earn your place in society</li>
+                <li>Endure harsh winters, crop failures, and potential invasions</li>
+            </ul>
+            <a href="#" class="cta-button">Experience Medieval Survival</a>
+        </section>
+        <section id="character-creation">
+            <h2>Forge Your Medieval Identity</h2>
+            <p>In Middle Ages, your character is your lifeline to the past. Our historically accurate character creation system allows you to:</p>
+            <ul>
+                <li>Choose from a range of historically appropriate backgrounds and professions</li>
+                <li>Customize your appearance based on regional and ethnic characteristics of the era</li>
+                <li>Select starting skills that align with your chosen role in medieval society</li>
+                <li>Make crucial decisions about your character's religious beliefs and social connections</li>
+            </ul>
+            <p>Remember, in 1000 CE, your birth often determined your fate. Choose wisely, as your starting position will greatly affect your chances of survival and prosperity.</p>
+            <a href="#" class="cta-button">Create Your Medieval Self</a>
+        </section>
+        <section id="community">
+            <h2>Learn and Survive Together</h2>
+            <p>Middle Ages is more than just a simulation - it's a community of history enthusiasts, survivalists, and curious minds. Connect with fellow time travelers to:</p>
+            <ul>
+                <li>Share survival strategies and historical insights</li>
+                <li>Participate in group challenges and historical reenactments</li>
+                <li>Discuss the social, economic, and political realities of the era</li>
+                <li>Collaborate on historical research to enhance the accuracy of our simulation</li>
+            </ul>
+            <a href="#" class="cta-button">Join the Community</a>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Middle Ages: Survive the Year 1000. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
